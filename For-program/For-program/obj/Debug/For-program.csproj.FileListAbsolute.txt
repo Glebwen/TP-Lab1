@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\bin\Debug\For-program.exe.config
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\bin\Debug\For-program.exe
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\bin\Debug\For-program.pdb
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\obj\Debug\For-program.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\obj\Debug\For-program.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\obj\Debug\For-program.exe
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\For-program\For-program\obj\Debug\For-program.pdb
