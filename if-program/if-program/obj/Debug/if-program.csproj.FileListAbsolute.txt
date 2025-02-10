@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\bin\Debug\if-program.exe.config
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\bin\Debug\if-program.exe
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\bin\Debug\if-program.pdb
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.exe
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.pdb
