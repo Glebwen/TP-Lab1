@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\bin\Debug\String-program.exe.config
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\bin\Debug\String-program.exe
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\bin\Debug\String-program.pdb
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\obj\Debug\String-program.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\obj\Debug\String-program.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\obj\Debug\String-program.exe
+C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\String-program\String-program\obj\Debug\String-program.pdb
