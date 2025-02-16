@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace For_program
 {
-
     public class Logic
     {
         public static string IncreaseMonthCount(string a, string b, string c)
@@ -78,7 +72,6 @@ namespace For_program
             return bAnswer;
         }
     }
-
     class Program
     {
         static void Main(string[] args)
@@ -89,7 +82,6 @@ namespace For_program
             var b = Console.ReadLine();
             Console.WriteLine("Введите ожидаемую сумму на счету");
             var c = Console.ReadLine();
-
             Console.WriteLine("a) " + Logic.IncreaseMonthCount(a,b,c));
             Console.WriteLine("b) " + Logic.DepositMonthCount(a,b,c));
             Console.ReadKey();

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace String_program
 {
@@ -66,9 +62,6 @@ namespace String_program
         {
             Console.WriteLine("введите строку цифр, разделенных зхнаками + или -");
             string line = Console.ReadLine();
-
-
-
             Console.WriteLine(Logic.CountLine(line));
             Console.ReadKey();
         }
