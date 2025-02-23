@@ -5,3 +5,11 @@ C:\Users\User\Desktop\Технологии программирования\TP-L
 C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.exe
 C:\Users\User\Desktop\Технологии программирования\TP-Lab1\TP-Lab1\if-program\if-program\obj\Debug\if-program.pdb
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\bin\Debug\if-program.exe.config
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\bin\Debug\if-program.exe
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\bin\Debug\if-program.pdb
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\obj\Debug\if-program.csproj.AssemblyReference.cache
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\obj\Debug\if-program.csproj.SuggestedBindingRedirects.cache
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\obj\Debug\if-program.csproj.CoreCompileInputs.cache
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\obj\Debug\if-program.exe
+D:\Технологии программирования\ТПЛаб1\if-program\if-program\obj\Debug\if-program.pdb

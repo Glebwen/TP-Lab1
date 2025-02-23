@@ -62,6 +62,12 @@ namespace String_program
         {
             Console.WriteLine("введите строку цифр, разделенных зхнаками + или -");
             string line = Console.ReadLine();
+            while (Logic.CountLine(line) == "некорректный ввод")
+            {
+                Console.WriteLine(Logic.CountLine(line));
+                Console.WriteLine("введите строку цифр, разделенных зхнаками + или -");
+                line = Console.ReadLine();
+            }
             Console.WriteLine(Logic.CountLine(line));
             Console.ReadKey();
         }

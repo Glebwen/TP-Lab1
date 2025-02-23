@@ -76,14 +76,25 @@ namespace For_program
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Введите сумму, вложенную при открытии вклада");
             var a = Console.ReadLine();
             Console.WriteLine("Введите интересующий размер увеличения вклада");
             var b = Console.ReadLine();
             Console.WriteLine("Введите ожидаемую сумму на счету");
             var c = Console.ReadLine();
-            Console.WriteLine("a) " + Logic.IncreaseMonthCount(a,b,c));
-            Console.WriteLine("b) " + Logic.DepositMonthCount(a,b,c));
+            while (Logic.IncreaseMonthCount(a, b, c) == "некорректный ввод" || Logic.IncreaseMonthCount(a, b, c) == "числа за пределами ОДЗ")
+            {
+                Console.WriteLine(Logic.IncreaseMonthCount(a, b, c));
+                Console.WriteLine("Введите сумму, вложенную при открытии вклада");
+                a = Console.ReadLine();
+                Console.WriteLine("Введите интересующий размер увеличения вклада");
+                b = Console.ReadLine();
+                Console.WriteLine("Введите ожидаемую сумму на счету");
+                c = Console.ReadLine();
+            }
+            Console.WriteLine("a) Небходимое число месяцев: " + Logic.IncreaseMonthCount(a,b,c));
+            Console.WriteLine("b) Небходимое число месяцев: " + Logic.DepositMonthCount(a,b,c));
             Console.ReadKey();
         }
     }

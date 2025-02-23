@@ -20,11 +20,99 @@ namespace if_program
                 {
                     if (x % 100 == 0)
                     {
-                        outMessage = (x / 100) + " рублей ровно";
+                        if ((x / 100)%10 == 1)
+                        {
+                            if (x / 1000 == 1)
+                            {
+                                outMessage = (x / 100) + " рублей ровно";
+                            }
+                            else
+                            {
+                                outMessage = (x / 100) + " рубль ровно";
+                            }
+                        }
+                        else
+                        {
+                            if ((x / 100) % 10 > 4)
+                            {
+                                outMessage = (x / 100) + " рублей ровно";
+                            }
+                            else
+                            {
+                                if (x / 1000 == 1)
+                                {
+                                    outMessage = (x / 100) + " рублей ровно";
+                                }
+                                else
+                                {
+                                    outMessage = (x / 100) + " рубля ровно";
+                                }
+                            }
+                        }
+
                     }
                     else
                     {
-                        outMessage = x / 100 + " рублей " + x % 100 + " копеек";
+                        if ((x / 100) % 10 == 1)
+                        {
+                            if (x / 1000 == 1)
+                            {
+                                outMessage = (x / 100) + " рублей ";
+                            }
+                            else
+                            {
+                                outMessage = (x / 100) + " рубль ";
+                            }
+                        }
+                        else
+                        {
+                            if ((x / 100) % 10 > 4)
+                            {
+                                outMessage = (x / 100) + " рублей ";
+                            }
+                            else
+                            {
+                                if (x / 1000 == 1)
+                                {
+                                    outMessage = (x / 100) + " рублей ";
+                                }
+                                else
+                                {
+                                    outMessage = (x / 100) + " рубля ";
+                                }
+                            }
+                        }
+
+                        if ((x % 100) % 10 == 1)
+                        {
+                            if ((x % 100)/10 == 1)
+                            {
+                                outMessage += (x % 100) + " копеек";
+                            }
+                            else
+                            {
+                                outMessage += (x % 100) + " копейка";
+                            }
+                        }
+                        else
+                        {
+                            if ((x % 100) % 10 > 4)
+                            {
+                                outMessage += (x % 100) + " копеек";
+                            }
+                            else
+                            {
+                                if ((x % 100)/10 == 1)
+                                {
+                                    outMessage += (x % 100) + " копеек";
+                                }
+                                else
+                                {
+                                    outMessage += (x % 100) + " копейки";
+                                }
+                            }
+                        }
+
                     }
                 }
 
@@ -36,9 +124,17 @@ namespace if_program
     {
         static void Main(string[] args)
         {
+
+
             Console.WriteLine("Введите натуральное число 1<=n<=9999");
             string n = Console.ReadLine();
 
+            while (Logic.Convert(n) == "некорректный ввод" || Logic.Convert(n) == "число за пределом ОДЗ")
+            {
+                Console.WriteLine(Logic.Convert(n));
+                Console.WriteLine("Введите натуральное число 1<=n<=9999");
+                n = Console.ReadLine();
+            }
 
             Console.WriteLine(Logic.Convert(n));
             Console.ReadKey();
